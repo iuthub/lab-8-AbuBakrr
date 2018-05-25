@@ -10,9 +10,11 @@
     <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
 @include('partials.admin-header')
 <div class="container">
     @yield('content')
+
 </div>
 </body>
 </html>
